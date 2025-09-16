@@ -22,7 +22,7 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* 아이용 서비스 */}
           <Card className="p-8 hover:shadow-lg transition-all duration-300 group cursor-pointer">
-            <Link to="/kids" className="block">
+            <Link to="/auth" className="block">
               <div className="text-center space-y-6">
                 <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300">
                   <User className="w-10 h-10 text-primary" />
