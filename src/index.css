@@ -8,50 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Kid-friendly color palette */
-    --background: 220 30% 98%;
-    --foreground: 222.2 84% 4.9%;
+    /* Kid-friendly warm color palette */
+    --background: 35 50% 97%;
+    --foreground: 25 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 25 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 25 25% 15%;
 
-    /* Bright, fun primary colors */
-    --primary: 240 100% 65%;
+    /* Warm, cheerful primary colors */
+    --primary: 340 90% 55%;
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 320 100% 75%;
+    --secondary: 200 85% 65%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 30% 95%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 35 40% 92%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 45 100% 70%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 150 75% 60%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 20% 90%;
-    --input: 220 20% 95%;
-    --ring: 240 100% 65%;
+    --border: 35 30% 85%;
+    --input: 35 30% 90%;
+    --ring: 340 90% 55%;
 
     /* Success colors for stamps */
-    --success: 140 70% 55%;
+    --success: 150 75% 60%;
     --success-foreground: 0 0% 100%;
     
     /* Gradient colors */
-    --gradient-start: 240 100% 65%;
-    --gradient-end: 320 100% 75%;
+    --gradient-start: 340 90% 55%;
+    --gradient-end: 200 85% 65%;
     
     /* Fun colors */
-    --orange: 25 100% 65%;
-    --green: 140 70% 55%;
-    --purple: 280 100% 70%;
-    --pink: 320 100% 75%;
-    --yellow: 45 100% 70%;
+    --orange: 25 95% 65%;
+    --green: 150 75% 60%;
+    --purple: 270 80% 70%;
+    --pink: 330 85% 70%;
+    --yellow: 45 95% 70%;
 
     --radius: 1rem;
 
