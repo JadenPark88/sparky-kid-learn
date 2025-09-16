@@ -47,6 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        orange: "hsl(var(--orange))",
+        green: "hsl(var(--green))",
+        purple: "hsl(var(--purple))",
+        pink: "hsl(var(--pink))",
+        yellow: "hsl(var(--yellow))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -80,10 +89,50 @@ export default {
             height: "0",
           },
         },
+        "bounce-in": {
+          "0%": {
+            transform: "scale(0.3)",
+            opacity: "0",
+          },
+          "50%": {
+            transform: "scale(1.05)",
+          },
+          "70%": {
+            transform: "scale(0.9)",
+          },
+          "100%": {
+            transform: "scale(1)",
+            opacity: "1",
+          },
+        },
+        "stamp-collect": {
+          "0%": {
+            transform: "scale(1) rotate(0deg)",
+          },
+          "50%": {
+            transform: "scale(1.3) rotate(5deg)",
+          },
+          "100%": {
+            transform: "scale(1) rotate(0deg)",
+          },
+        },
+        "sparkle": {
+          "0%, 100%": {
+            opacity: "0",
+            transform: "scale(0)",
+          },
+          "50%": {
+            opacity: "1",
+            transform: "scale(1)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "bounce-in": "bounce-in 0.6s ease-out",
+        "stamp-collect": "stamp-collect 0.8s ease-in-out",
+        "sparkle": "sparkle 1.5s ease-in-out infinite",
       },
     },
   },
